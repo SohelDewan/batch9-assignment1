@@ -51,8 +51,10 @@
   text-align: center;
   font-size: 32px;
   font-weight: 400;
+  font-family: "Merriweather", serif;
 }
 .banner-text h1 {
+  font-family: "Merriweather", serif;
   color: #fff;
   text-align: center;
   font-size: 72px;
@@ -144,6 +146,7 @@
   color: #fff;
   font-size: 64px;
   font-weight: 900;
+  font-family: "Merriweather", serif;
   line-height: 88px; /* 137.5% */
   /* letter-spacing: 7.04px; */
   max-width: 642px;
@@ -252,7 +255,7 @@
   font-weight: 400;
   line-height: 32px; /* 160% */
 }
-.comming-soon .middle{
+.comming-soon .middle {
   max-width: 440px;
 }
 .comming-soon .middle .image {
@@ -270,100 +273,154 @@
   padding-left: 40px;
   margin-top: 60px;
 }
-.comming-soon .right h3{
+.comming-soon .right h3 {
   padding-top: 60px;
-  color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-bottom: 10px;
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.comming-soon .right p{
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 270px;
-margin-bottom: 43px;
+.comming-soon .right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 270px;
+  margin-bottom: 43px;
 }
 /* Holidays styles */
-#holiday{
+#holiday {
   display: flex;
   margin: 0 auto;
 }
-.container-holiday{
+.container-holiday {
   width: 82%;
   max-width: 1320px;
   margin: 0 auto;
 }
-.holiday-text{
+.holiday-text {
   text-align: center;
   font-family: "Inter", sans-serif;
   margin-bottom: 200px;
   padding-bottom: 300px;
 }
-.holiday-text h4{
+.holiday-text h4 {
   color: #070211;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
 }
-.holiday-text h2{
-  color: #F00;
+.holiday-text h2 {
+  color: #f00;
   text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-margin-bottom: 20px;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
-.holiday-text span{
+.holiday-text span {
   color: #070211;
 }
-.holiday-text p{
+.holiday-text p {
   font-family: "Inter", sans-serif;
   min-width: 60%;
   margin: 0 auto;
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 500;
   line-height: 32px; /* 160% */
 }
-.inner-holiday{
+.inner-holiday {
   display: flex;
   margin-top: 68px;
   position: relative;
 }
-.inner-holiday img{
+.inner-holiday img {
   /* width: 100%; */
   max-width: 100%;
 }
 /* .inner-holiday .bottom-image img{
   max-width: 100%;
 } */
-#holiday .bottom-red-bg{
+#holiday .bottom-red-bg {
   max-width: 1320px;
   height: 152px;
   background: #f00;
   border-radius: 10px 0 10px 10px;
-
 }
-#holiday .holiday-left img{
+#holiday .holiday-left img {
   width: 560px;
   max-width: 580px;
 }
-#holiday .holiday-left{
+#holiday .holiday-left {
   position: absolute;
   bottom: -100px;
   left: 3%;
 }
-#holiday .holiday-right{
+#holiday .holiday-right {
   position: absolute;
   bottom: -5px;
   right: 0;
 }
-#holiday .holiday-right .off50{
+#holiday .holiday-right .off50 {
   position: absolute;
   right: 65%;
   top: 8%;
+}
+/* Portfolio styles */
+#portfolio {
+  margin: 120px 0;
+}
+.portfolio-container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.portfolio-container h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfolio-container h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 16px;
+}
+.portfolio-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 68%;
+  margin: 22px 0;
+}
+
+.port-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.port-gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.port-gallery::after {
+  content: "";
+  width: 350px;
 }

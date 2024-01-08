@@ -173,8 +173,36 @@
   text-transform: uppercase;
   transition: 0.4s;
 }
-.welcome-text .btn a:hover{
-    background: #fff;
-    color: #f00;
-    transform: scale(1.1);
+.welcome-text .btn a:hover {
+  background: #fff;
+  color: #f00;
+  transform: scale(1.1);
+}
+/* Join or contact party style */
+#join-party {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+#join-party > .container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px auto;
+  width: 82%;
+  max-width: 1320px;
+  text-align: center;
+}
+.party-text p {
+  color: #070211;
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.party-text span {
+  color: #f00;
 }

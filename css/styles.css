@@ -197,7 +197,7 @@
 }
 .party-text p {
   color: #070211;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -205,4 +205,83 @@
 }
 .party-text span {
   color: #f00;
+}
+
+/* Comming soon part style */
+
+#new-offer {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  /* margin-top: 100px; */
+}
+#new-offer .container {
+  max-width: 1320px;
+  background: transparent;
+}
+#new-offer .comming-soon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#new-offer .comming-soon .left {
+  max-width: 440px;
+  margin-top: 60px;
+}
+.comming-soon .left h3 {
+  color: #f00;
+  text-align: start;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.comming-soon .left h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 22px 0;
+  display: inline-block;
+}
+.comming-soon .left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.comming-soon .middle{
+  max-width: 440px;
+}
+.comming-soon .middle .image {
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.comming-soon .middle .image img {
+  width: 100%;
+  min-width: 364px;
+  border: 24px solid #fff;
+  border-radius: 463px;
+}
+.comming-soon .right {
+  max-width: 440px;
+  padding-left: 40px;
+  margin-top: 60px;
+}
+.comming-soon .right h3{
+  color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.comming-soon .right p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 270px;
+margin-bottom: 43px;
 }
